@@ -1,0 +1,13 @@
+<div id="order-list" class="panel" data-title="所有订单" data-load="load_panel" ng-controller="ordersController">
+  <div id="app-status-div">
+    <ul id="app-status-ul">
+      <li>Cordova PushNotification Plugin Demo</li>
+    </ul>
+  </div>
+  <ul class="list">
+    <li ng-repeat="order in orders">
+      <a href="#account-profile-edit">{{order.name}}
+      </a>
+    </li>
+  </ul>
+</div>
